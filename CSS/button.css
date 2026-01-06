@@ -1,0 +1,32 @@
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    height: 55px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background: #444;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.clear {
+    background: #ff4d4d;
+}
+
+.equal {
+    background: #4CAF50;
+    grid-row: span 2;
+}
+
+.zero {
+    grid-column: span 2;
+}
